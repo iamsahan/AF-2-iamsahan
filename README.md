@@ -1,12 +1,40 @@
-# React + Vite
+# 🌍 The World Factbook - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern hero section inspired by the CIA World Factbook.  
+It offers information about world entities and promotes global awareness.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Deployed Site](https://www.crusious.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Clean and responsive Hero Section
+- Built with **React + Vite + Tailwind CSS**
+- Easily customizable components
+- Testable using React Testing Library
+
+---
+
+## 📦 Tech Stack
+
+- **React** – Frontend Library
+- **Vite** – Blazing fast dev server
+- **Tailwind CSS** – Utility-first styling
+- **React Testing Library** – For unit testing
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/SE1020-IT2070-OOP-DSA-25/af-2-iamsahan.git
+
+npm install
+
+npm run dev
+```
