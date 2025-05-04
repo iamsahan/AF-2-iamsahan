@@ -14,7 +14,7 @@ function HeroSection() {
             transnational issues for 265 world entities.
           </p>
           <p className="text-2xl md:text-3xl font-semibold italic">
-            Travel the globe with CIA’s World Factbook.
+            Travel the globe with Crusious.
           </p>
           <div className="flex items-center mt-6 text-sm">
             <span className="mr-2">○ ●</span>
