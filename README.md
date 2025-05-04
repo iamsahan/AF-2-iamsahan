@@ -5,7 +5,7 @@ It offers information about world entities and promotes global awareness.
 
 ## 🔗 Live Demo
 
-👉 [View Deployed Site](https://www.crusious.com)
+👉 [View Deployed Site](https://www.crusios.com)
 
 ---
 
