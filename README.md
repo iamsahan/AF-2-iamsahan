@@ -1,4 +1,4 @@
-# 🌍 The World Factbook - React + Vite
+# 🌍 CRUSIOUS - All About The World - React + Vite
 
 A responsive and modern hero section inspired by the CIA World Factbook.  
 It offers information about world entities and promotes global awareness.
