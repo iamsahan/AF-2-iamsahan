@@ -14,7 +14,8 @@ function App() {
     <Router>
       <div className={`app ${darkmode && "darkmode"}`}>
         <Header />
-        <div className="app__body">
+        <div>
+          <ChatBot />
           <Routes>
             <Route path="/country/:id" element={<CountryDetails />} />
             <Route path="/" element={<Home />} />

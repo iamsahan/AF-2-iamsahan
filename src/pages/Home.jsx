@@ -62,7 +62,7 @@ function App() {
       <HeroSection />
       <div className="font-sans text-gray-800 bg-gray-50 min-h-screen">
         {/* Header */}
-        <header className="relative bg-gradient-to-r from-blue-700 to-indigo-800 text-white py-16 shadow-lg">
+        <header className="relative bg-gradient-to-r bg-black text-white py-16 shadow-lg">
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1526778548025-fa2f539b4196')] bg-cover bg-center opacity-20"></div>
           <div className="relative container mx-auto text-center animate__animated animate__fadeIn">
             <h1 className="text-5xl font-extrabold tracking-tight mb-4">
@@ -81,24 +81,21 @@ function App() {
           </div>
         </header>
         {/* Hero Section */}
-        <section id="discover" className="py-16 px-4 bg-white">
-          <div className="container mx-auto text-center">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/5/55/Globe_icon.svg"
-              alt="Globe"
-              className="w-24 mx-auto mb-6 animate__animated animate__bounceIn"
-            />
-            <h2 className="text-3xl font-bold mb-4 animate__animated animate__fadeInUp">
-              Discover Global Insights
-            </h2>
-            <p className="max-w-3xl mx-auto text-lg text-gray-600 animate__animated animate__fadeInUp animate__delay-1s">
-              Uncover fascinating details about countries worldwide through
-              stunning data visualizations, interactive maps, and beautifully
-              designed cards showcasing population, geography, and cultural
-              facts.
-            </p>
+        <section>
+          <div className="container mx-auto w-screen text-center overflow-hidden">
+            <div className="aspect-video w-screen shadow-md overflow-hidden">
+              <video
+                className="h-full object-cover w-full"
+                src="/videos/video-dem.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+              />
+            </div>
           </div>
         </section>
+
         {/* Country Cards Section */}
         <section className="py-16 px-4 bg-gray-100">
           <div className="container mx-auto">

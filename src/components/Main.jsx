@@ -7,7 +7,6 @@ import {
   turnSearchOn,
 } from "../features/countriesSlice";
 import { Button } from "@mui/material";
-import "./Main.css";
 import CountryList from "./CountryList";
 
 function Main() {
